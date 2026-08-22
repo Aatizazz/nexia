@@ -1,5 +1,3 @@
-![Nexia](Images/Image%207.png)
-
 # 🧠 Nexia
 
 **Smart Documentation Memory for AI Agents**
@@ -11,8 +9,6 @@ Save **75% on tokens**. Build **3x faster**. **Zero manual commands**.
 ---
 
 ## 🎯 What is Nexia?
-
-![Before vs After](Images/Image%201.png)
 
 Nexia connects your documentation to your AI agents intelligently.
 
@@ -46,8 +42,6 @@ Agent automatically knows what to do.
 
 ## 📊 Impact
 
-![Token Savings](Images/Image%203.png)
-
 | Metric | Without Nexia | With Nexia | Savings |
 |--------|---|---|---|
 | Tokens/session | 245,992 | 74,049 | **70%** |
@@ -58,8 +52,6 @@ Agent automatically knows what to do.
 ---
 
 ## 🚀 Features
-
-![Features](Images/Image%202.png)
 
 ✅ **Smart Documentation Index** - Query by topic, get only what you need
 ✅ **Persistent Agent Memory** - Remember all builds, massive code reuse
@@ -90,8 +82,6 @@ your-project/
 ---
 
 ## 🤖 How Agents Auto-Work
-
-![Workflow Cycle](Images/Image%204.png)
 
 ### Session 1
 ```
@@ -223,8 +213,6 @@ python nexia-index.py --build --input ./docs
 
 ## 🎉 Why Nexia?
 
-![Problem vs Solution](Images/Image%205.png)
-
 **Without Nexia:**
 - Load bloated docs every session ❌
 - Manual commands each time ❌
@@ -240,10 +228,6 @@ python nexia-index.py --build --input ./docs
 - Save 75% tokens, massive reuse ✅
 
 ---
-
-## 📊 Token Comparison
-
-![Comparison Table](Images/Image%209.png)
 
 ---
 
