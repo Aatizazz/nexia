@@ -28,7 +28,7 @@ Nexia connects your documentation to your AI agents intelligently.
 
 ### 1️⃣ Download (30 seconds)
 ```bash
-git clone https://github.com/aatizaz/nexia.git
+git clone https://github.com/Aatizazz/nexia.git
 cd nexia
 ```
 
@@ -63,7 +63,7 @@ Agent automatically knows what to do.
 
 ✅ **Smart Documentation Index** - Query by topic, get only what you need
 ✅ **Persistent Agent Memory** - Remember all builds, massive code reuse
-✅ **Auto-Config** - Agents auto-know what to do (read `.nexia-config`)
+✅ **Auto-Config** - Agents auto-know what to do (read `nexia-config.json`)
 ✅ **Zero Friction** - No manual commands, agent handles everything
 ✅ **100% Local** - No APIs, no cloud, no privacy concerns
 ✅ **Token Savings** - 75% reduction verified with real numbers
@@ -81,7 +81,7 @@ your-project/
 │   └── ... (your docs)
 ├── nexia-index.py          # Smart query tool
 ├── nexia-memory.py         # Memory tool
-├── .nexia-config           # Auto-instructs agents
+├── nexia-config.json           # Auto-instructs agents
 └── .nexia/                 # Auto-created
     ├── index.json          # One-time index build
     └── memory.json         # Grows with builds
@@ -96,7 +96,7 @@ your-project/
 ### Session 1
 ```
 User: "Build auth endpoint"
-Agent: Reads .nexia-config → "I should use Nexia"
+Agent: Reads nexia-config.json → "I should use Nexia"
 Agent: Runs nexia-index.py --build
 Agent: Queries nexia-index.py --query authentication
 Agent: Builds endpoint
@@ -196,7 +196,7 @@ For 100 features: 18.5M tokens saved ($72)
 
 ### Install
 ```bash
-git clone https://github.com/aatizaz/nexia.git
+git clone https://github.com/Aatizazz/nexia.git
 cd nexia
 python nexia-index.py --build --input ./docs
 ```
@@ -208,9 +208,8 @@ python nexia-index.py --build --input ./docs
 ## 📞 Support
 
 - 📖 Read `GUIDE.md` for full documentation
-- 🤖 Agent reads `.nexia-config` for auto-instructions
+- 🤖 Agent reads `nexia-config.json` for auto-instructions
 - 💬 Run `--help` on any tool for command help
-- 📊 See `token_comparison_generator.py` for ROI calculations
 
 ---
 
@@ -246,12 +245,6 @@ python nexia-index.py --build --input ./docs
 
 ![Comparison Table](Images/Image%209.png)
 
-See `token_comparison_generator.py` for detailed before/after analysis.
-
-```bash
-python token_comparison_generator.py --docs-size 707 --features 100
-```
-
 ---
 
 ## 📝 License
@@ -264,7 +257,7 @@ MIT License - Free forever, use anywhere
 
 ```bash
 # 1. Clone
-git clone https://github.com/aatizaz/nexia.git
+git clone https://github.com/Aatizazz/nexia.git
 
 # 2. Setup (one-time)
 python nexia-index.py --build --input ./docs
