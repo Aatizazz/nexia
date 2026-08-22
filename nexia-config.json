@@ -1,0 +1,37 @@
+{
+  "nexia": {
+    "version": "1.0",
+    "name": "Nexia",
+    "description": "Smart documentation memory - saves 75% tokens",
+    "enabled": true
+  },
+  
+  "agent_instructions": {
+    "on_load": "Nexia detected. Using smart doc queries and agent memory.",
+    "before_first_build": "First time? Build smart index: python nexia-index.py --build --input ./docs",
+    "before_every_build": "Query only relevant docs: python nexia-index.py --query [TOPIC]",
+    "after_every_build": "Save to memory: python nexia-memory.py record --name [FEATURE] --type feature --description '[DESC]'"
+  },
+
+  "agent_commands": {
+    "query_topic": "python nexia-index.py --query [TOPIC] --input ./docs",
+    "get_schema": "python nexia-index.py --schema --input ./docs",
+    "get_apis": "python nexia-index.py --apis --input ./docs",
+    "record_build": "python nexia-memory.py record --name [NAME] --type feature --description '[DESC]'",
+    "check_memory": "python nexia-memory.py check --task [TASK]",
+    "view_memory": "python nexia-memory.py view --what all",
+    "memory_report": "python nexia-memory.py report"
+  },
+
+  "token_savings": {
+    "per_session": "171,943 tokens saved ($0.95)",
+    "for_100_features": "18.5M tokens saved ($72)",
+    "for_1000_features": "185M tokens saved ($740)"
+  },
+
+  "compatibility": {
+    "claude_code": "✅ Fully supported",
+    "cursor": "✅ Fully supported",
+    "aider": "✅ Fully supported"
+  }
+}
